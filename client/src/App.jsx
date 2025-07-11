@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css';
+import Navbar from "@/components/shared/Navbar.jsx";
 
 const App = () => {
     return (
         <div>
-            <h1>Frontend for jobsite, Praveen Kumar</h1>
+            <Navbar/>
         </div>
     );
 };
