@@ -73,7 +73,7 @@ const appRouter = createBrowserRouter(
     ],
     {
         future: {
-            v7_startTransition: true // ✅ Fix the warning by opting in
+            v7_startTransition: true
         }
     }
 )
